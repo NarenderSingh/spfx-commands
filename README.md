@@ -1,13 +1,14 @@
 # SharePoint Framework Commands
 
 
-SharePoint Framework Production 1 :
+A. SharePoint Framework: Deploying .sppkg app in Production:
 
 1. gulp build
 2. gulp bundle --ship
 3. gulp package-solution --ship
 
-Deploy same app with different name in same site app catalog.
+B. SharePoint Framework: Deploying .sppkg app in Producation with different name but in same app catalog.
+
 Steps:
 1. Go to dist folder and delete all the files and folders.
 2. Go to lib folder and delete all the files and folders.
